@@ -37,3 +37,4 @@ Pages utiles pour App Store Connect :
 - Ajouter éventuellement une adresse e-mail de support.
 - Ajouter une capture d'écran ou l'icône officielle OmniDate si souhaité.
 - Ajouter dans l'app OmniDate un lien vers `privacy.html`.
+  
