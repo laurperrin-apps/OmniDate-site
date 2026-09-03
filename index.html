@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="OmniDate — calendriers, Lune, éphéméride et repères temporels sur iPhone et iPad.">
+  <meta name="description" content="OmniDate — calendriers, Lune, Soleil, widgets et repères temporels sur iPhone et iPad.">
   <title>OmniDate</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -19,8 +19,8 @@
       <a class="navlink active" href="index.html">
         <span data-lang="fr">Accueil</span><span data-lang="en">Home</span>
       </a>
-      <a class="navlink " href="support.html">Support</a>
-      <a class="navlink " href="privacy.html">
+      <a class="navlink" href="support.html">Support</a>
+      <a class="navlink" href="privacy.html">
         <span data-lang="fr">Confidentialité</span><span data-lang="en">Privacy</span>
       </a>
       <button id="langButton" class="lang" type="button" aria-label="Changer de langue">EN</button>
@@ -30,45 +30,60 @@
 
 <main>
   <section class="hero wrap">
-    <div class="eyebrow">OmniDate 1.0</div>
+    <div class="eyebrow">OmniDate 1.1</div>
     <h1>OmniDate</h1>
 
     <p class="lead" data-lang="fr">
-      Une autre façon de regarder la date : calendriers du monde, Lune,
-      éphéméride et repères temporels dans une interface claire et personnalisable.
+      Explorez aujourd’hui. Et toutes les autres dates. Calendriers, cycles de l’année,
+      Lune et Soleil réunis dans une interface claire, personnalisable et sans compte utilisateur.
     </p>
     <p class="lead" data-lang="en">
-      A different way to look at the date: world calendars, Moon information,
-      name days and time markers in a clear, customizable interface.
+      Explore today. And every other date. Calendars, progress through the year,
+      Moon and Sun information brought together in a clear, customizable interface with no account required.
     </p>
 
     <div class="pills">
       <span class="pill">iPhone &amp; iPad</span>
       <span class="pill"><span data-lang="fr">Widgets personnalisables</span><span data-lang="en">Customizable widgets</span></span>
+      <span class="pill"><span data-lang="fr">Écran verrouillé</span><span data-lang="en">Lock Screen</span></span>
       <span class="pill"><span data-lang="fr">10 langues</span><span data-lang="en">10 languages</span></span>
-      <span class="pill"><span data-lang="fr">Mode clair / sombre</span><span data-lang="en">Light / dark mode</span></span>
     </div>
   </section>
 
   <section class="wrap grid">
     <article class="card">
       <div class="icon">◫</div>
-      <h2 data-lang="fr">Plusieurs calendriers</h2>
-      <h2 data-lang="en">Multiple calendars</h2>
+      <h2 data-lang="fr">Une date, plusieurs calendriers</h2>
+      <h2 data-lang="en">One date, multiple calendars</h2>
       <p data-lang="fr">
-        Comparez une même date dans différents systèmes calendaires,
-        dont le grégorien, le julien et le calendrier républicain français.
+        Comparez instantanément une même journée dans de nombreux systèmes calendaires :
+        grégorien, julien, républicain français, chinois, hébraïque, islamique, persan,
+        bouddhiste, japonais et ISO 8601.
       </p>
       <p data-lang="en">
-        Compare the same date across different calendar systems,
-        including Gregorian, Julian and the French Republican calendar.
+        Instantly compare the same day across many calendar systems, including Gregorian,
+        Julian, French Republican, Chinese, Hebrew, Islamic, Persian, Buddhist, Japanese and ISO 8601.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="icon">☀</div>
+      <h2 data-lang="fr">Suivez la course du Soleil</h2>
+      <h2 data-lang="en">Follow the Sun</h2>
+      <p data-lang="fr">
+        Lever et coucher du Soleil, midi solaire, durée du jour, progression de la journée
+        ou de la nuit, ainsi que les aubes et crépuscules civil, nautique et astronomique.
+      </p>
+      <p data-lang="en">
+        Sunrise, sunset, solar noon, day length, daytime or nighttime progress,
+        plus civil, nautical and astronomical dawn and dusk.
       </p>
     </article>
 
     <article class="card">
       <div class="icon">☾</div>
-      <h2 data-lang="fr">Lune et distance Terre-Lune</h2>
-      <h2 data-lang="en">Moon and Earth-Moon distance</h2>
+      <h2 data-lang="fr">Lune et événements lunaires</h2>
+      <h2 data-lang="en">Moon and lunar events</h2>
       <p data-lang="fr">
         Phase lunaire, illumination, âge de la Lune, distance Terre-Lune
         et prochains événements lunaires.
@@ -81,15 +96,43 @@
 
     <article class="card">
       <div class="icon">▦</div>
-      <h2 data-lang="fr">Widgets sur mesure</h2>
-      <h2 data-lang="en">Widgets your way</h2>
+      <h2 data-lang="fr">Widgets personnalisables</h2>
+      <h2 data-lang="en">Customizable widgets</h2>
       <p data-lang="fr">
-        Petit, moyen ou grand : choisissez les calendriers et informations
-        que vous souhaitez voir directement sur votre écran d’accueil.
+        Configurez séparément les widgets Petit, Moyen et Grand de l’écran d’accueil,
+        choisissez vos calendriers et affichez les informations qui vous intéressent.
       </p>
       <p data-lang="en">
-        Small, medium or large: choose the calendars and information
-        you want to see directly on your Home Screen.
+        Configure Small, Medium and Large Home Screen widgets independently,
+        choose your calendars and display the information that matters to you.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="icon">◉</div>
+      <h2 data-lang="fr">Widgets d’écran verrouillé</h2>
+      <h2 data-lang="en">Lock Screen widgets</h2>
+      <p data-lang="fr">
+        Gardez un œil sur le prochain lever ou coucher du Soleil, la prochaine phase majeure
+        de la Lune et la progression dans l’année sans ouvrir l’application.
+      </p>
+      <p data-lang="en">
+        Check the next sunrise or sunset, the next major Moon phase and progress through the year
+        without opening the app.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="icon">◔</div>
+      <h2 data-lang="fr">Notifications astronomiques</h2>
+      <h2 data-lang="en">Astronomical notifications</h2>
+      <p data-lang="fr">
+        Recevez une notification pour le midi solaire ou le coucher du Soleil,
+        au moment de l’événement ou jusqu’à une heure avant.
+      </p>
+      <p data-lang="en">
+        Receive notifications for solar noon or sunset,
+        either at the event or up to one hour beforehand.
       </p>
     </article>
   </section>
